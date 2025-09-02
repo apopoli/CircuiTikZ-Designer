@@ -1,0 +1,186 @@
+{
+    "version": "0.1",
+    "components": [
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 85.04,
+                    "y": -215.811
+                },
+                {
+                    "x": 85.04,
+                    "y": -291.402
+                }
+            ],
+            "label": {
+                "value": "R_{2}",
+                "distance": "0.12cm"
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 85.04,
+                    "y": -291.402
+                },
+                {
+                    "x": 198.426,
+                    "y": -291.402
+                }
+            ],
+            "label": {
+                "value": "R_{1}",
+                "otherSide": true,
+                "distance": "0.12cm"
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 198.426,
+                    "y": -291.402
+                },
+                {
+                    "x": 198.426,
+                    "y": -215.811
+                }
+            ],
+            "label": {
+                "value": "R_{3}",
+                "distance": "0.12cm"
+            },
+            "id": "american resistor"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 198.426,
+                    "y": -291.402
+                },
+                {
+                    "x": 274.016,
+                    "y": -291.402
+                }
+            ],
+            "name": "C",
+            "label": {
+                "value": "C",
+                "otherSide": true,
+                "distance": "0.12cm"
+            },
+            "id": "capacitor"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 85.04,
+                    "y": -291.402
+                },
+                {
+                    "x": 9.449,
+                    "y": -291.402
+                }
+            ],
+            "name": "L",
+            "label": {
+                "value": "L",
+                "distance": "0.12cm"
+            },
+            "id": "cute inductor"
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 9.449,
+                    "y": -215.811
+                },
+                {
+                    "x": 274.016,
+                    "y": -215.811
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "node",
+            "name": "T3",
+            "position": {
+                "x": 274.016,
+                "y": -291.402
+            },
+            "id": "ocirc"
+        },
+        {
+            "type": "node",
+            "name": "T4",
+            "position": {
+                "x": 274.016,
+                "y": -215.811
+            },
+            "id": "ocirc"
+        },
+        {
+            "type": "node",
+            "name": "T2",
+            "position": {
+                "x": 9.449,
+                "y": -215.811
+            },
+            "id": "ocirc"
+        },
+        {
+            "type": "node",
+            "name": "T1",
+            "position": {
+                "x": 9.449,
+                "y": -291.402
+            },
+            "id": "ocirc"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 85.04,
+                "y": -291.402
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 198.426,
+                "y": -291.402
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 85.04,
+                "y": -215.811
+            },
+            "id": "circ"
+        },
+        {
+            "type": "node",
+            "position": {
+                "x": 198.426,
+                "y": -215.811
+            },
+            "id": "circ"
+        }
+    ]
+}
